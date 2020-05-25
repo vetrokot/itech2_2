@@ -6,7 +6,7 @@ $db_driver="mysql"; $host = "127.0.0.1"; $database = "iteh2lb1var7";
   
   try {
     $dbh = new PDO ($dsn, $username, $password, $options);
-   // echo "Connected to database<br>";
+    echo "Connected to database<br>";
     //$dbh ->query("SET CHARACTER SET utf8");
   }
   catch (PDOException $e) {
